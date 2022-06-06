@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP PRO SÉCURITÉ av Gambetta Livry-Gargan 93190</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <header>
+        <h1 id="top">CAP PRO SÉCURITÉ av Gambetta Livry-Gargan 93190</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#testimony">Nos forfaits</a></li>
+                <li><a href="#posts">Actualités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="nuage"></div>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="about">À propos</h2>
+
+            <div id="aboutdetails">
+
+                <article>
+                    <img src="img/image28.jpg" alt="valise">
+                    <h3>Notre Siège</h3>
+                    <p>Av Gambetta Livry-Gargan, 93190
+					01.01.01.01.01</p>
+                </article>
+                <article>
+                    <img src="img/image29.jpg" alt="avion">
+                    <h3>Nos Horaires téléphonique / Nos intervention</h3>
+                    <p>Lundi au Vendredi 09H - 19H
+					Lundi au Samedi 10H - 18H</p>
+                </article>
+                <article>
+                    <img src="img/image30.jpg" alt="restaurant">
+                    <h3>Nos Résaux sociaux</h3>
+                    <p>@cap-pro-securite</p>
+					<p>Instagram / Facebook / Twitter</p>
+                </article>
+
+            </div>
+        </section>
+        <section class="separation separation1"></section>
+        <section>
+            <h2 id="testimony">Nos forfaits sans engagement</h2>
+            <h3>Votres sécurité est entre nos mains.</h3>
+            <div id="testimonydetails">
+
+                <article class="fondgris temoignage">
+                    <p>Avec l'installation gratuite d'une entreprise, 
+					vous bénéficiez d'une porte blindé et d'une grilles de défense "portails", 
+					afin d'augmenter la difficultés d'accés à des individu malveillant.</p>
+                    <hr>
+                    <div>
+                        <img src="img/image22.jpg" alt="Hugo">
+                        <p>
+                            <strong>Pack Sérrure : 150€</strong>
+                            <span>Porte blindées & Grilles de défense</span>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="fondgris temoignage">
+                    <p>Nos camméra vous informé directemennt par e-mail, des évènements se produisant au seins de vos domiciles surveillées.
+					Afin d'éviter tous risque d'un potentiels future cambriolage nous renforçons là sécurité avec 3 de nos agents
+					postés aux alentours de vôtres domicile 12H sûr 24.</p>
+                    <hr>
+                    <div>
+                        <img src="img/image23.jpg" alt="Julie">
+                        <p>
+                            <strong>Pack Gillet par-balle : 199€ par mois / 2099€ par an.  </strong>
+                            <span>Sécurité & Assurances</span>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="fondgris temoignage">
+                    <p>Offrez-vous nôtre formule la plus complète pour une protection optimisé à vos attentes. 
+					vous serez équipés d'alarmes de surveillances, de 2 agent de sécurités postées devant vôtre domicile, 
+					en plus de 2 voitures de polices qui patrouilleront 24h sur 24.</p>
+                    <hr>
+                    <div>
+                        <img src="img/image24.jpg" alt="Pierre">
+                        <p>
+                            <strong>Pack Tank : 399€ par mois / 4999€ par an.</strong>
+                            <span>Surveiller & Prospecter</span>
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section>
+
+            <div class="fondgris poststitle">
+                <h2 id="posts">Actualités</h2>
+                <h3>Dernières actualités</h3>
+            </div>
+
+            <div id="postsdetails">
+
+                <article>
+                    <img src="img/image26.jpg" alt="route forestière">
+                    <p>En 2022, on enregistre une hausse sensible de 4% selon l'Observatoire de la délinquance et de la réponse pénale (ONDRP)...</p>
+                    <div class="date">
+						<span class="jour">27</span>
+                        <span class="mois">Juillet</span>
+						<span class="mois">Protection</span>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/image27.jpg" alt="éoliennes">
+                    <p>Afin de partir en vacances l'esprit tranquille, nous vous proposons un pack spécial "été sécurisé" d'une durée de 2 moins...</p>
+                    <div class="date">
+						<span class="jour">05</span>
+                        <span class="mois">Août</span>
+						<span class="mois">Assurance</span>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/image31.jpg" alt="route du désert">
+                    <p>Comment protéger son entreprise ? d’après les assureurs ce qui fait renoncer en premier lieu un cambrioleur est la difficulté d’accès...</p>
+                    <div class="date">
+                        <span class="jour">13</span>
+                        <span class="mois">Septembre</span>
+						<span class="mois">Astuce</span>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/image32.jpg" alt="rails">
+                    <p>Pour éviter les mauvaises surprises, photographier vos objets de valeurs, n'inscrivez pas vos nom et adresse sur votre trousseau de clés...</p>
+                    <div class="date">
+						<span class="jour">28</span>
+                        <span class="mois">Octobre</span>
+						<span class="mois">Bon réflexes</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="separation separation2"></section>
+        <section>
+            <h2 id="contact">Nous contacter</h2>
+			 <h2 id="contact">01.01.01.01.01</h2>
+			 <h2 id="contact">Av Gambetta Livry-Gargan, 93190</h2>
+            <form class="fondgris" method="post">
+                <input type="text" placeholder="Votre nom">
+                <input type="email" placeholder="Votre email">
+                <textarea placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <div id="remonte">
+            <!-- <a href="#top">&#9650;</a> -->
+            <a href="#top"><i class="fas fa-chevron-up"></i></a>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2022 - CAP PRO SÉCURITÉ - Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>

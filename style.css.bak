@@ -1,0 +1,356 @@
+/*--------------------------------------*/
+/* Polices google Open sans et Pacifico */
+/*--------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+
+/*---------*/
+/* Général */
+/*---------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Ancres suivies en douceur */
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.fondgris {
+    background: rgb(240, 240, 240);
+}
+
+/*--------*/
+/* header */
+/*--------*/
+header {
+    height: 70vh;
+    /* vh : viewport height */
+    background-image: url(img/image21.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-left: 30px;
+}
+
+#nuage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to top, white, transparent);
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+
+    position:fixed;
+    top:0;
+    right:0;
+
+    background:linear-gradient(to right,transparent 10%, rgba(1, 0, 44,.3));
+
+    z-index:99;
+    transition:0.7s;
+}
+
+nav:hover{
+    /* background:rgba(1, 0, 44,.7); */
+    background:linear-gradient(to right,transparent 10%, rgba(1, 0, 44,.7));
+}
+
+nav ul {
+
+    width:60%;
+    margin-left:auto;
+
+    display: flex;
+    list-style: none;
+    padding: 25px 0;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:1px 1px black;
+}
+
+
+/*------------------*/
+/* section A propos */
+/*------------------*/
+#about {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#aboutdetails {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+#aboutdetails article {
+    text-align: center;
+    padding: 40px;
+    width: 30%;
+}
+
+#aboutdetails article img {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, .3);
+}
+
+#aboutdetails article h3 {
+    margin: 20px 0;
+}
+
+/*---------------------*/
+/* section Témoignages */
+/*---------------------*/
+#testimony {
+    text-align: center;
+}
+
+#testimony+h3 {
+    text-align: center;
+}
+
+#testimonydetails {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+
+#testimonydetails article {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#testimonydetails article hr {
+    margin: 20px 0;
+}
+
+#testimonydetails article div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#testimonydetails article div strong {
+    display: block;
+}
+
+
+#testimonydetails article div img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+/*------------------*/
+/* section Articles */
+/*------------------*/
+.poststitle {
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#postsdetails {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#postsdetails article {
+    width: 20%;
+    position: relative;
+    text-align: center;
+}
+
+#postsdetails article img {
+    max-width: 100%;
+}
+
+#postsdetails article p {
+    font-size: 1.2rem;
+}
+
+.date {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    background: black;
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.date span {
+    display: block;
+}
+
+.jour {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.mois {
+    font-size: .9rem;
+}
+
+/*-----------------*/
+/* section Contact */
+/*-----------------*/
+#contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, textarea, button {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Open sans', sans-serif;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+
+/*-------------*/
+/* Séparations */
+/*-------------*/
+.separation1 {
+    background: url(img/image25.jpg);
+    background-position: center 35%;
+
+}
+
+.separation2 {
+    background: url(img/image20.jpg);
+    background-position: center 45%;
+}
+
+.separation {
+    height: 400px;
+    background-size: cover;
+    margin: 30px 0;
+}
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+
+/*----------------*/
+/* Flèche remonte */
+/*----------------*/
+
+#remonte{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:40px;
+    height:40px;
+    background:rgba(128, 128, 128, 0.315);
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:.7s;
+    z-index:99;
+}
+
+#remonte:hover{
+    background:black;
+}
+
+
+#remonte a{
+    color:white;
+    display:block;
+    width:100%;
+    height:100%;
+    line-height: 40px;
+    text-align:center;
+}
+
+
+
+
+/* ----------- MEDIA QUERY ------------*/
+@media screen and (max-width:960px) {
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #aboutdetails article, #testimonydetails article, #postsdetails article {
+        width: 80%;
+        margin: 25px auto;
+    }
+
+    /* #aboutdetails,#testimonydetails,#postsdetails{
+        justify-content: center;
+    } 
+     */
+
+}
